@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RTZ COMPUTERS</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ 
+<div class="particulas"></div>
+ 
+
+<header class="px-3 px-md-4 py-3">
+  <h1 class="fs-4 fs-md-3 mb-0">RTZ COMPUTERS</h1>
+ 
+ 
+  <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+    <span style="color:cyan;font-size:24px;">&#9776;</span>
+  </button>
+ 
+  <div class="collapse d-md-flex align-items-center gap-4 w-100" id="navMenu">
+    <nav class="mt-3 mt-md-0">
+      <ul class="list-unstyled d-flex flex-column flex-md-row gap-2 gap-md-4 mb-0">
+        <li><a href="#">Home</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#video">Vídeo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+ 
+    <div class="pesquisa mt-3 mt-md-0 ms-md-auto d-flex align-items-center gap-2">
+      <input type="text" placeholder="Pesquisar periféricos...">
+      <button>🔍</button>
+      
+      <button id="btnTema">☀️ Modo Claro</button>
+    </div>
+  </div>
+</header>
+ 
+
+<section class="banner">
+  <h2 class="fs-1 fs-md-banner">Monte seu Setup Gamer</h2>
+  <p class="fs-6 fs-md-5">Os melhores periféricos para performance e estilo</p>
+</section>
+ 
+
+<section class="categorias">
+  <h2>CATEGORIAS</h2>
+  <div class="categoria-grid row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3 mt-2 justify-content-center">
+    <div class="col"><a href="mouse.html" class="categoria-link"><div class="categoria">🖱️ Mouse</div></a></div>
+    <div class="col"><a href="teclado.html" class="categoria-link"><div class="categoria">⌨️ Teclados</div></a></div>
+    <div class="col"><a href="headset.html" class="categoria-link"><div class="categoria">🎧 Headsets</div></a></div>
+    <div class="col"><a href="mousepad.html" class="categoria-link"><div class="categoria">🪡 Mousepads</div></a></div>
+  </div>
+</section>
+ 
+
+<section id="produtos" class="py-5 px-3 px-md-5 text-center">
+  <h2>Produtos em destaque</h2>
+  <div class="galeria row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-2">
+ 
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img pc/mouse.png" alt="Mouse Gamer">
+        <h3 class="mt-2">Mouse Gamer</h3>
+        <a href="mouse.html"><button class="mt-auto">Comprar</button></a>
+      </div>
+    </div>
+ 
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img pc/tecladp gm.webp" alt="Teclado Mecânico">
+        <h3 class="mt-2">Teclado Mecânico</h3>
+        <a href="teclado.html"><button class="mt-auto">Comprar</button></a>
+      </div>
+    </div>
+ 
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img pc/headset gm.webp" alt="Headset Gamer">
+        <h3 class="mt-2">Headset Gamer</h3>
+        <a href="headset.html"><button class="mt-auto">Comprar</button></a>
+      </div>
+    </div>
+ 
+  </div>
+</section>
+ 
+
+<section id="video" class="py-5 px-3 text-center">
+  <h2>Nosso Setup em Ação</h2>
+  <figure class="mt-3">
+    <video controls class="w-100" style="max-width:500px;">
+      <source src="/video/clippc.mp4" type="video/mp4">
+      <track
+        src="/video/legenda.vtt/legenda.vtt"
+        kind="subtitles"
+        srclang="pt"
+        label="Português"
+        default>
+    </video>
+    <figcaption>
+      Demonstração de um setup gamer com periféricos de alta performance.
+    </figcaption>
+  </figure>
+</section>
+ 
+
+<section id="sobre" class="py-5 px-3 text-center">
+  <h2>Sobre a RTZ</h2>
+  <p class="mt-2">A RTZ COMPUTERS é especializada em periféricos gamers de alta performance.</p>
+ 
+  <h3 class="mt-4">Por que escolher a RTZ?</h3>
+  <ul class="list-unstyled mt-3">
+    <li>Alta performance</li>
+    <li>Produtos de qualidade</li>
+    <li>Design gamer moderno</li>
+    <li>Entrega rápida</li>
+    <li>Suporte especializado</li>
+  </ul>
+ 
+  <h3 class="mt-4">Produtos e Preços</h3>
+  <div class="table-responsive mt-3">
+    <table class="mx-auto">
+      <tr>
+        <th>Produto</th>
+        <th>Categoria</th>
+        <th>Preço</th>
+      </tr>
+      <tr>
+        <td>Mouse Gamer</td>
+        <td>Mouse</td>
+        <td>R$ 60-800</td>
+      </tr>
+      <tr>
+        <td>Teclado Mecânico</td>
+        <td>Teclado</td>
+        <td>R$ 70-1500</td>
+      </tr>
+      <tr>
+        <td>Headset Gamer</td>
+        <td>Áudio</td>
+        <td>R$ 80-900</td>
+      </tr>
+    </table>
+  </div>
+</section>
+ 
+
+<section id="contato" class="py-5 px-3 text-center">
+  <h2>Entre em Contato</h2>
+
+  
+  <div id="mensagemSucesso">
+    ✅ Mensagem enviada com sucesso! Entraremos em contato em breve.
+  </div>
+
+  <form id="formContato" class="mt-3" novalidate>
+    <label for="inputNome">Nome</label>
+    <input type="text" id="inputNome">
+
+    <label for="inputEmail">Email</label>
+    <input type="email" id="inputEmail">
+
+    <label for="inputMensagem">Mensagem</label>
+    <textarea id="inputMensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+ 
+
+<footer>
+  <p>Siga a RTZ nas redes</p>
+  <div class="redes">
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">Facebook</a>
+  </div>
+  <p>© 2026 RTZ COMPUTERS</p>
+</footer>
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
